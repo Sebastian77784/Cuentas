@@ -12,7 +12,10 @@ class Account extends Model
 
 
     protected $fillable = [
-        'name', 'ammount', 'status', 'user_id',
+        'name', 
+        'ammount', 
+        'status', 
+        'user_id',
     ];
 
     // Relaciones
